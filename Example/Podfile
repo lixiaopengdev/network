@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'CSNetwork_Example' do
+  pod 'CSNetwork', :path => '../'
+  pod 'ComeSocialNetwork', :git => "git@gitee.com:beijing-yunneutron/ComeSocialNetwork.git"
+
+  target 'CSNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

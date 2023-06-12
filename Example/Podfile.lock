@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (5.6.4)
+  - ComeSocialNetwork (0.1.2):
+    - Moya (~> 15.0.0)
+    - ObjectMapper (~> 4.2.0)
+  - CSNetwork (0.1.0):
+    - Moya (~> 15.0.0)
+    - ObjectMapper (~> 4.2.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.2.0)
+
+DEPENDENCIES:
+  - "ComeSocialNetwork (from `git@gitee.com:beijing-yunneutron/ComeSocialNetwork.git`)"
+  - CSNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  ComeSocialNetwork:
+    :git: "git@gitee.com:beijing-yunneutron/ComeSocialNetwork.git"
+  CSNetwork:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  ComeSocialNetwork:
+    :commit: 4b5ada9ab888d5fa26aa77294d128d7e632f59cf
+    :git: "git@gitee.com:beijing-yunneutron/ComeSocialNetwork.git"
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ComeSocialNetwork: 61cecda0b55e441dd913ca2259c49bf71c719515
+  CSNetwork: 3ae0ca3e1b9a23bb4ac954b795ef5276498bd0d7
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+
+PODFILE CHECKSUM: cc3d43457cb3473d26998fd40a07eef5cac0689b
+
+COCOAPODS: 1.11.3
